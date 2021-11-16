@@ -1,0 +1,7 @@
+﻿  main5.c
+C:\Users\Korisnik\Documents\Ivan Barić\Strukture podataka\Zadatak 5\Zadatak 5\Zadatak 5\main5.c(12,41): warning C4133: 'function': incompatible types - from 'char [12]' to 'double *'
+C:\Users\Korisnik\Documents\Ivan Barić\Strukture podataka\Zadatak 5\Zadatak 5\Zadatak 5\main5.c(12,52): warning C4133: 'function': incompatible types - from 'double *' to 'char *'
+C:\Users\Korisnik\Documents\Ivan Barić\Strukture podataka\Zadatak 5\Zadatak 5\Zadatak 5\main5.c(17,35): warning C4047: 'function': 'double *' differs in levels of indirection from 'char **'
+C:\Users\Korisnik\Documents\Ivan Barić\Strukture podataka\Zadatak 5\Zadatak 5\Zadatak 5\main5.c(17,32): warning C4024: 'CalculatePostfixFromFile': different types for formal and actual parameter 1
+C:\Users\Korisnik\Documents\Ivan Barić\Strukture podataka\Zadatak 5\Zadatak 5\Zadatak 5\main5.c(17,46): warning C4133: 'function': incompatible types - from 'double *' to 'char *'
+  Zadatak 5.vcxproj -> C:\Users\Korisnik\Documents\Ivan Barić\Strukture podataka\Zadatak 5\Zadatak 5\Debug\Zadatak 5.exe
