@@ -22,5 +22,7 @@ C. sortira listu po prezimenima osoba,
 D. upisuje listu u datoteku,
 E. čita listu iz datoteke.
 
+4.
+
 5.  Napisati program koji iz datoteke čita postfiks izraz i zatim korištenjem stoga računa
 rezultat. Stog je potrebno realizirati preko vezane liste.
