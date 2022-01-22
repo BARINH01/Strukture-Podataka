@@ -23,6 +23,7 @@ int brisi_element(Position S);
 Position Find(int x, Position S);
 int trazielement(Position S);
 Position Findmin(Position S);
+Position Findmax(Position S);
 int Meni(Position S);
 
 
@@ -142,7 +143,6 @@ Position deletelement(int x, Position S) {
 	else {
 
 		temp = S;
-		S->left = NULL;
 
 		if (S->left == NULL)
 			S = S->right;
@@ -207,10 +207,20 @@ Position Findmin(Position S) {
 
 }
 
+Position Findmax(Position S)
+{	
+	if (S != NULL) {
+		if (S->right != NULL) {
+			S = S->right;
+		}
+	}
+	else
+		return S;
+}
+
 int Meni(Position S) {
 
 	int k = 0;	//return val
-	int x = 0;
 
 	while (k != 9) {
 
